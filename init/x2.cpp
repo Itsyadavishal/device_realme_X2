@@ -42,6 +42,38 @@
 using android::base::GetProperty;
 using std::string;
 
+static const char *snet_prop_key[] = {
+    "ro.boot.vbmeta.device_state",
+    "ro.boot.verifiedbootstate",
+    "ro.boot.flash.locked",
+    "ro.boot.selinux",
+    "ro.boot.veritymode",
+    "ro.boot.warranty_bit",
+    "ro.warranty_bit",
+    "ro.debuggable",
+    "ro.secure",
+    "ro.build.type",
+    "ro.build.tags",
+    "ro.build.selinux",
+    NULL
+};
+
+static const char *snet_prop_value[] = {
+    "locked",
+    "green",
+    "1",
+    "enforcing",
+    "enforcing",
+    "0",
+    "0",
+    "0",
+    "1",
+    "user",
+    "release-keys",
+    "0",
+    NULL
+};
+
 void property_override(char const prop[], char const value[]) {
     auto pi = (prop_info*) __system_property_find(prop);
 
@@ -63,10 +95,16 @@ void set_ro_build_prop(const string &source, const string &prop,
     property_override(prop_name.c_str(), value.c_str());
 }
 
+static void workaround_snet_properties() {
+    for (int i = 0; snet_prop_key[i]; ++i)
+        property_override(snet_prop_key[i], snet_prop_value[i]);
+}
+
 void vendor_load_properties() {
     /*
      * Detect device and configure properties
      */
+    workaround_snet_properties();
     std::ifstream infile("/proc/oplusVersion/operatorName");
     string operatorName;
     string device;
