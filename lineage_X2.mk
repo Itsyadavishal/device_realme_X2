@@ -19,6 +19,6 @@ PRODUCT_MANUFACTURER := realme
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-BUILD_FINGERPRINT := "realme/RMX1992/RMX1992L1:10/QKQ1.191201.002/1592194586:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
