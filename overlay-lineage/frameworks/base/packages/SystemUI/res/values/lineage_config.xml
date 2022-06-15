@@ -18,8 +18,12 @@
             0 - GLOBAL HBM 
             1 - LOCAL HBM
     -->
-    <integer name="config_udfpsHbmType">0</integer>
+<<<<<<< HEAD
+    <integer name="config_udfps_hbm_type">0</integer>
     <integer name="config_udfpsVendorCode">0</integer>
+=======
+    <integer name="config_udfps_hbm_type">0</integer>
+>>>>>>> parent of 33f4084 (X2: Adapt to latest udfps LineageOS changes)
 
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
