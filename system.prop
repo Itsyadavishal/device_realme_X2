@@ -8,6 +8,8 @@ persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac
 persist.vendor.btstack.enable.splita2dp=true
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
+persist.bluetooth.a2dp.lhdc=true
+persist.sys.bluetooth.wearcheck_support=true
 
 # Camera
 vendor.camera.aux.packagelist=com.android.camera
