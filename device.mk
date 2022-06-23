@@ -17,6 +17,7 @@ $(call inherit-product, vendor/realme/X2/X2-vendor.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
 PRODUCT_PACKAGES += \
     libgui_vendor
