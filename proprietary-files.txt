@@ -540,8 +540,8 @@ vendor/lib64/libcdfw.so|70ef0247c71d590b503471a03d4aaa76d99441e9
 vendor/lib64/libcdfw_remote_api.so|faaf6c57e4c1c40d5e604d6932704bf63d883e96
 vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
 vendor/lib64/libcdsprpc.so|c9eb743013b62cdfa13eaf1f9c29945d2d3de826
-vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
-vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
+vendor/lib64/libmdsprpc.so|523f6501e39101a9d61baffccd20a0d2848e3524
+vendor/lib64/libsdsprpc.so|96ed968d5d79c3fe8c37f331082c16cf5212dc52
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
 # Configstore
@@ -791,7 +791,7 @@ vendor/lib64/vendor.qti.gnss@3.0.so|491917101ba1182d0a6f849323690f5636277447
 vendor/lib64/vendor.qti.gnss@4.0.so|5ef1845cf0a310a52bfbdbc719685270ea4e39b3
 vendor/lib64/vendor.qti.gnss@4.0-service.so|d4ad241375b02946f2822888f7cc95704210a929
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f83424f36ee
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|937760a15e0832ced4deb142c479d34ca6a316f4
 vendor/lib64/libgnsspps.so|0522543abb745e616e495613b171cb4e65e97321
 
 # Health - from RMX1993_F.26
