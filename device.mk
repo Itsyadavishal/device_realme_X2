@@ -361,8 +361,6 @@ PRODUCT_BOARD_PLATFORM := sm6150
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
-    vendor/qcom/opensource/commonsys/system/bt/conf \
     vendor/nxp/opensource/sn100x
 
 # Perf
