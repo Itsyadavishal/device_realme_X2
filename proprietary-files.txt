@@ -708,17 +708,25 @@ vendor/lib64/libgsl.so|906445697a01e905f6b94136b1993694396e76db
 vendor/lib64/libllvm-glnext.so|eaf5143a2aad128e86094cd3b65717efb7381a78
 vendor/lib64/libllvm-qcom.so|512c0db7ea845f992f382e53da4ca4c988dc5837
 
-# Graphics (SDM) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/lib64/libqseed3.so|7f2a659fb9acd84d79c11dbd6901b816d5d1214f
-vendor/lib64/libsdedrm.so|351f4f9a64566097bd19601f18951ac8131a92b5
-vendor/lib64/libsdm-color.so|d24904d36d2cd5912755af5ac7e2fede47cd3eac
-vendor/lib64/libsdm-colormgr-algo.so|15f696a4575868e528360896f1e0098d531899c0
-vendor/lib64/libsdm-diag.so|341907510d377127adb98d07e7d9f30448d08def
-vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
-vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
-vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
-vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
-vendor/lib64/libhdr_tm.so|a222a7d838735c5ce73f06d4096fea3ca19611c8
+# Graphics (SDM)
+vendor/bin/ppd
+vendor/lib64/libqseed3.so
+vendor/lib64/librs_adreno.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-colormgr-algo.so
+vendor/lib64/libsdm-diag.so
+vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libtinyxml2_1.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libdisp-aba.so
+vendor/lib64/libdisplayqos.so
+vendor/lib64/libhdr_tm.so
+
+# Graphics (hwcomposer)
+vendor/lib/hw/hwcomposer.sm6150.so
+vendor/lib64/hw/hwcomposer.sm6150.so
 
 # Graphics firmware
 vendor/firmware/a612_rgmu.bin
@@ -1052,11 +1060,9 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Postprocessing - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/ppd|57172f5d3b0b9bfc04f5eed93672d2b6f175d1f4
 vendor/bin/hw/vendor.display.color@1.0-service|91e9e25ec4d64c4a7d5261899ca2cdb9cf29b695
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib64/libdpps.so|7f54d826ebe3748412e8c77ebb03c9a0193e9bf7
-vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
 vendor/lib64/vendor.display.color@1.0.so|f2af8d5ecc146560dca66895b5173e86e406e41e
 vendor/lib64/vendor.display.color@1.1.so|2cbb29aa26a15165a6b2f92065207930f4e050d9
 vendor/lib64/vendor.display.color@1.2.so|78875790131fffba844443bedb0f0f7e1d8ab47b
