@@ -749,4 +749,7 @@
 
 <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
+
+<!-- Whether device has VOOC charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
 </resources>
