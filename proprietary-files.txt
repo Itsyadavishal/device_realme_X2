@@ -790,9 +790,6 @@ vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f834
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|937760a15e0832ced4deb142c479d34ca6a316f4
 vendor/lib64/libgnsspps.so|0522543abb745e616e495613b171cb4e65e97321
 
-# Health - from RMX1993_F.26
-vendor/bin/hw/android.hardware.health@2.1-service:vendor/bin/hw/android.hardware.health@2.1-service.RMX1993|977491e82ca92e267e88f4f8ed655dad0c9fbd83
-
 # IPA Firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
