@@ -131,6 +131,11 @@ ro.boot.realme.lockstate=0
 # FM
 vendor.hw.fm.init=0
 
+# Wi-Fi
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.net.enable_dual_wifi=1
+    wifi.aware.interface=wifi-aware0
+
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
