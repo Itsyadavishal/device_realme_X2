@@ -137,6 +137,9 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_365_FILES := $(DEVICE_PATH)/configs/hidl/manifest_sdmmagpie.xml
 ODM_MANIFEST_366_FILES := $(DEVICE_PATH)/configs/hidl/manifest_sdmmagpie.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
