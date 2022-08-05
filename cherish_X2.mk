@@ -6,6 +6,7 @@
 
 # Inherit some common Corvus stuff.
 $(call inherit-product, vendor/cherish/config/common.mk)
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Inherit from X2 device.
 $(call inherit-product,device/realme/X2/device.mk)
