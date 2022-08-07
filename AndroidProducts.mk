@@ -15,4 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/yaap_X2.mk
+   $(LOCAL_DIR)/cherish_X2.mk
+
+
+COMMON_LUNCH_CHOICES := \
+   cherish_X2-eng \
+   cherish_X2-user \
+   cherish_X2-userdebug
